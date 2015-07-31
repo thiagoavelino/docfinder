@@ -70,7 +70,7 @@ a {
   z-index: 5;
   height: 60px;
   padding-top: 15px;
-  background-color: white;
+  background-color: transparent;
 }
 .mobile-wrapper {
   position: relative;
@@ -139,9 +139,10 @@ a {
 }
 .body {
   padding-top: 60px;
-  background-image: url('../images/background.jpg');
-  background-position: 100% 0%;
+  background-image: url('../images/background.png');
+  background-position: 50% 0%;
   background-repeat: no-repeat;
+  background-color: #24fa56;
   height: 100%;
 }
 .hero-slider {
@@ -1005,10 +1006,11 @@ position: absolute;
   float: left;
 }
 .bar-home-icon {
-  width: 100%;
-  height: 1px;
-  margin-bottom: 7px;
-  background-color: #ccc;
+    width: 100%;
+    height: 3px;
+    margin-bottom: 7px;
+    background-color: white;
+    border-bottom: 1px solid green;
 }
 .shadow-layer {
   position: fixed;
